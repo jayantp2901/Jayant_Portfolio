@@ -7,6 +7,7 @@ const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
+        id="hero"
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
@@ -22,13 +23,7 @@ const Hero = () => {
             I develop Web Applications, user <br className='sm:block hidden' />
             interfaces and Softwares
           </p>
-          <div className="flex mt-2">
-            <a href="https://www.linkedin.com/in/jayant-paithane-38059b281/" target="_blank" rel="noopener noreferrer">
-              <button className="ml-4 bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary">
-                LinkedIn
-              </button>
-            </a>
-          </div>
+          
         </div>
       </div>
 
