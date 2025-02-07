@@ -33,6 +33,8 @@ import occasion from "./Occasion.png"
 import pathfinding from "./pathfinding.png"
 import htmlAB from "./certificates/htmlAB.png"
 import javascriptAB from "./certificates/javascriptAB.png"
+import postman from "./tech/postman.png"
+import mysql from "./tech/mysql.png"
 
 export {
   jobportal,
@@ -66,6 +68,7 @@ export {
   JobPortlLogo,
   java,
   htmlAB,
-  javascriptAB
-
+  javascriptAB,
+  postman,
+  mysql,
 };

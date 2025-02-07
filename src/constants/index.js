@@ -17,7 +17,8 @@ import {
   meta,
   starbucks,
   JobPortlLogo,
-  
+  postman,
+  mysql,
 
   htmlAB,
   javascriptAB
@@ -79,7 +80,7 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "Java",
     icon: java,
   },
   {
@@ -88,7 +89,7 @@ const technologies = [
   },
  
   {
-    name: "Tailwind CSS",
+    name: "Tailwind",
     icon: tailwind,
   },
   {
@@ -100,17 +101,18 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Java",
-    icon: java,
+    name: "mysql",
+    icon: mysql,
+  },
+  {
+    name: "Postman",
+    icon: postman,
   },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  
   {
     name: "docker",
     icon: docker,
