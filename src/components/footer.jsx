@@ -14,16 +14,21 @@ export default function Footer() {
                 {/* Social Media Section */}
                 <div className="flex flex-col text-center space-y-4 md:space-y-2 md:text-left">
                     <p className="font-bold text-xl text-teal-400 tracking-wider">Connect Via</p>
-                    <a href="https://www.linkedin.com/in/jayant-paithane-38059b281/" className="hover:text-teal-300 transition-transform transform hover:scale-110">
+                    <a href="https://www.linkedin.com/in/jayant-paithane-38059b281/" target="_blank" rel="noopener noreferrer" 
+                        className="hover:text-teal-300 transition-transform transform hover:scale-110">
                         <i className="fa-brands fa-linkedin"></i> LinkedIn
                     </a>
-                    <a href="https://www.instagram.com/jayant_paithane?igsh=MTU5ejk1OGVxaW1jeg==" className="hover:text-teal-300 transition-transform transform hover:scale-110">
+                    <a href="https://www.instagram.com/jayant_paithane?igsh=MTU5ejk1OGVxaW1jeg==" target="_blank" rel="noopener noreferrer" 
+                        className="hover:text-teal-300 transition-transform transform hover:scale-110">
                         <i className="fa-brands fa-instagram"></i> Instagram
                     </a>
-                    <a href="mailto:jayantpaithane111@gmail.com" className="hover:text-teal-300 transition-transform transform hover:scale-110">
+                    <a href="mailto:jayantpaithane111@gmail.com"  target="_blank" rel="noopener noreferrer" 
+                        className="hover:text-teal-300 transition-transform transform hover:scale-110">
                         <i className="fa-brands fa-google"></i> Gmail
                     </a>
-                    <a href="tel:+91-8767749157" className="hover:text-teal-300 transition-transform transform hover:scale-110">
+                    <a href="tel:+91-8767749157" target="_blank" rel="noopener noreferrer" 
+                        className="hover:text-teal-300 transition-transform transform hover:scale-110">
+                            
                         <i className="fa-solid fa-phone-alt"></i> Phone
                     </a>
 
